@@ -16,7 +16,20 @@ As such, your package explorer should be empty and not have any other projects i
 RSSOwl requires a specific version of Eclipse RCP to run. You can not build RSSOwl with any newer RCP version than 3.4.2. For your convinience,
 the target platform in this repository will just work and matches with the target platform that is used to build RSSOwl for official releases.
 
-* 
+* download rssowl-target (https://github.com/bpasero/rssowl-target/archive/master.zip)
+* unzip rssowl-target and the included target.zip
+* in Eclipse open Window > Preferences > Plug-in Development > Target Platform
+* Click "Add..."
+* Click "Next"
+* Click "Add..."
+* Choose "Directory" and "Next"
+* Click "Browse"
+* Choose "target_win" if you plan to run/export for Windows and "target_nix" for Mac/Linux
+* Click "Ok" and "Finish" and "Finish" again
+* The target platform should show up in the list named "New Target"
+* Check the "New Target" so that it becomes active and close the preferences dialog with "Ok"
+
+Remember to change the target platform between Windows and Mac/Linux if you plan to export RSSOwl for multiple platforms!
 
 ## Import RSSOwl Sources
 
