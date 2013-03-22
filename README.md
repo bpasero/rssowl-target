@@ -60,7 +60,7 @@ RSSOwl works best with Java 1.5 or 1.6.
 ## Run from Eclipse
 
 * click on Run > Run Configurations from the menu
-* click on "Launch RSSOwl 2.0"
+* click on "Launch RSSOwl 2.0" from "Eclipse Application"
 * click the "Plug-ins" tab
 * uncheck all plugins from the "Target Platform"
 * click on "Add required plug-ins"
@@ -68,14 +68,19 @@ RSSOwl works best with Java 1.5 or 1.6.
 
 RSSOwl should start just fine.
 
+## Run Tests from Eclipse
+
+* click on Run > Run Configurations from the menu
+* click on "Launch RSSOwl 2.0 Tests" from JUnit Plug-in Tests
+
 ## Export from Eclipse
 
+* click on rssowl.product in org.rssowl.ui
+* click on "Eclipse Product export wizard" from the "Exporting" area
+* change the root directory to be "rssowl"
+* uncheck "Synchronize before exporting"
+* uncheck "Generate metadata repository"
+* click "Finish"
+* if you want to export for multiple platforms, check the "Export for multiple platforms" option
 
-
-The target platform to use to build RSSOwl 2.x. Instructions:
-
-* download Eclipse (http://archive.eclipse.org/eclipse/downloads/drops/R-3.7-201106131736/index.php)
-* get rssowl projects from https://github.com/rssowl
-* import into eclipse
-* download target.zip from https://github.com/bpasero/rssowl-target
-* start eclipse and configure the contents of either rssowl_win (for windows) or rssowl_nix (for mac and linux) as the target platform in preferences
+Keep in mind that for Mac/Linux you need the rssowl_nix target platform set and for Windows the other one.
