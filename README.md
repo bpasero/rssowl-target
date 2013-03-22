@@ -33,8 +33,40 @@ Remember to change the target platform between Windows and Mac/Linux if you plan
 
 ## Import RSSOwl Sources
 
+RSSOwl is a set of Eclipse Java plug-ins. Use your favorite source control provider in Eclipse to either get the sources through
+SVN or GIT:
+* SVN: https://sourceforge.net/p/rssowl/code/8614/tree/
+* GIT: https://github.com/rssowl/RSSOwl/
+
+Make sure to check out the specific RSSOwl version you want to build. The current stable version is RSSOwl 2.1.6. 
+
+You should see the following list of plugins and features in your package explorer after import
+* org.rssowl.core
+* org.rssowl.core.tests
+* org.rssowl.feature
+* org.rssowl.feature.dependencies
+* org.rssowl.feature.eclipse
+* org.rssowl.feature.tests
+* org.rssowl.lib.db4o
+* org.rssowl.lib.httpclient
+* org.rssowl.lib.jdom
+* org.rssowl.lib.lucene
+* org.rssowl.ui
+
+You should not see any compile errors when you do a full build (Project > Clean).
+
+RSSOwl works best with Java 1.5 or 1.6.
 
 ## Run from Eclipse
+
+* click on Run > Run Configurations from the menu
+* click on "Launch RSSOwl 2.0"
+* click the "Plug-ins" tab
+* uncheck all plugins from the "Target Platform"
+* click on "Add required plug-ins"
+* click "Run"
+
+RSSOwl should start just fine.
 
 ## Export from Eclipse
 
