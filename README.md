@@ -80,7 +80,7 @@ RSSOwl should start just fine.
 * change the root directory to be "rssowl"
 * uncheck "Synchronize before exporting"
 * uncheck "Generate metadata repository"
-* click "Finish"
 * if you want to export for multiple platforms, check the "Export for multiple platforms" option
+* click "Finish"
 
 Keep in mind that for Mac/Linux you need the rssowl_nix target platform set and for Windows the other one.
