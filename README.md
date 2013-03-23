@@ -66,7 +66,7 @@ RSSOwl works best with Java 1.5 or 1.6.
 * click the "Plug-ins" tab
 * uncheck all plugins from the "Target Platform"
 * click on "Add required plug-ins"
-* if you run with a 64 bit vm you will have to tell to run in 32 bit mode by adding a parameter "-d32" to the VM arguments list on the Arguments tab
+* Mac only: if you run with a 64 bit vm you will have to tell to run in 32 bit mode by adding a parameter "-d32" to the VM arguments list on the Arguments tab
 * click "Run"
 
 RSSOwl should start just fine.
