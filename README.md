@@ -53,7 +53,7 @@ You should see the following list of plugins and features in your package explor
 * org.rssowl.lib.lucene
 * org.rssowl.ui
 
-If you are not seeing these number of projects in the package explorer, try to create an archive with all these folders and choose File > Import > Existing projects from archive.
+If you are not seeing these number of projects in the package explorer, try to create an archive with all these folders and choose File > Import > Existing projects into workspace and choose the option to import from an archive.
 
 You should not see any compile errors when you do a full build (Project > Clean).
 
