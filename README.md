@@ -53,6 +53,8 @@ You should see the following list of plugins and features in your package explor
 * org.rssowl.lib.lucene
 * org.rssowl.ui
 
+If you are not seeing these number of projects in the package explorer, try to create an archive with all these folders and choose File > Import > Existing projects from archive.
+
 You should not see any compile errors when you do a full build (Project > Clean).
 
 RSSOwl works best with Java 1.5 or 1.6.
@@ -64,6 +66,7 @@ RSSOwl works best with Java 1.5 or 1.6.
 * click the "Plug-ins" tab
 * uncheck all plugins from the "Target Platform"
 * click on "Add required plug-ins"
+* if you run with a 64 bit vm you will have to tell to run in 32 bit mode by adding a parameter "-d32" to the VM arguments list on the Arguments tab
 * click "Run"
 
 RSSOwl should start just fine.
