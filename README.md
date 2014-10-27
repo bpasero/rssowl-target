@@ -1,3 +1,9 @@
+RSSOwl
+======
+RSS Owl is a powerful application to organize, search and read your RSS, RDF & Atom news feeds in a comfortable way.
+Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.
+http://rssowl.org/
+
 Build RSSOwl 2.x using Eclipse
 ==============================
 
